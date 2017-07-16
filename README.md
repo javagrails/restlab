@@ -7,7 +7,7 @@ REST api Example Using Grails 3.2.2
 
 Controller: city <br/>
 | Http Method | Resource URL | Rest Controller Action |
-| ------ | ------ | ------ |
+| ------- | ------- | ------- |
 | GET | http://localhost:8080/cities | Action: index |
 | GET | http://localhost:8080/cities/${id} | Action: show |
 | POST | http://localhost:8080/cities | Action: save |
@@ -17,7 +17,7 @@ Controller: city <br/>
 <br/>
 Controller: location <br/>
 | Http Method | Resource URL | Rest Controller Action |
-| ------ | ------ | ------ |
+| ------- | ------- | ------- |
 | GET | http://localhost:8080/cities/${cityId}/locations | Action: index |
 | GET | http://localhost:8080/cities/${cityId}/locations/${id} | Action: show |
 | POST | http://localhost:8080/cities/${cityId}/locations | Action: save |
