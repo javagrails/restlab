@@ -20,10 +20,9 @@ Controller: location
 <br/> |   GET    | /cities/${cityId}/locations/${id}      | Action: show             |
 
 # Sample Domain JSON
-<br/> City Json
+City Json
 <br/>  {"description": "A North Side District of BD","division": "Dhaka","name": "Jamalpur","population": 300000}
 
 <br/>
-<br/>
-<br/> Location Json
+Location Json
 <br/>  {"lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
