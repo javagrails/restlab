@@ -35,14 +35,22 @@ Body Content JSON {"description": "A North Side District of BD","division": "Dha
 PUT Resource URL => http://localhost:8080/cities/1
 
 Body Content JSON {"id":1 ,"description": "A North Side District of BD","division": "Dhaka","name": "Jamalpur","population": 300000}
-
-
-
-<br/>
-Location Json
-<br/>  {"lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
+ 
+ 
+ 
+ 
+ 
 
 ### Location POST and PUT example
+Headers { Content-Type : application/json, Accept : application/json } both for POST and PUT request
+
+POST Resource URL => http://localhost:8080/cities/1/locations
+
+Body Content JSON {"lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
+
+PUT Resource URL => http://localhost:8080/cities/1/locations/1
+
+Body Content JSON {"id":1, "lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
 
 
 
