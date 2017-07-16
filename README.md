@@ -2,16 +2,19 @@
 REST api Example Using Grails 3.2.2
 
 # Resources URL
+<br/>
 Controller: city
- |   POST   | /cities                                | Action: save             |
- |   GET    | /cities                                | Action: index            |
- |  DELETE  | /cities/${id}                          | Action: delete           |
- |   PUT    | /cities/${id}                          | Action: update           |
- |   GET    | /cities/${id}                          | Action: show             |
+<br/> |   POST   | /cities                                | Action: save             |
+<br/> |   GET    | /cities                                | Action: index            |
+<br/> |  DELETE  | /cities/${id}                          | Action: delete           |
+<br/> |   PUT    | /cities/${id}                          | Action: update           |
+<br/> |   GET    | /cities/${id}                          | Action: show             |
 
+<br/>
+<br/>
 Controller: location
- |   POST   | /cities/${cityId}/locations            | Action: save             |
- |   GET    | /cities/${cityId}/locations            | Action: index            |
- |  DELETE  | /cities/${cityId}/locations/${id}      | Action: delete           |
- |   PUT    | /cities/${cityId}/locations/${id}      | Action: update           |
- |   GET    | /cities/${cityId}/locations/${id}      | Action: show             |
+<br/> |   POST   | /cities/${cityId}/locations            | Action: save             |
+<br/> |   GET    | /cities/${cityId}/locations            | Action: index            |
+<br/> |  DELETE  | /cities/${cityId}/locations/${id}      | Action: delete           |
+<br/> |   PUT    | /cities/${cityId}/locations/${id}      | Action: update           |
+<br/> |   GET    | /cities/${cityId}/locations/${id}      | Action: show             |
