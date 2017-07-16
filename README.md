@@ -4,17 +4,27 @@ REST api Example Using Grails 3.2.2
 <br/> I use MySql server in this project
 
 # Resources URL
-<br/>
+
 Controller: city
-<br/> |   POST   | /cities                                | Action: save             |
-<br/> |   GET    | /cities                                | Action: index            |
-<br/> |  DELETE  | /cities/${id}                          | Action: delete           |
-<br/> |   PUT    | /cities/${id}                          | Action: update           |
-<br/> |   GET    | /cities/${id}                          | Action: show             |
+| Http Method | Resource URL | Rest Controller Action |
+| ------ | ------ | ------ |
+| GET | http://localhost:8080/cities | Action: index
+| GET | http://localhost:8080/cities/${id} | Action: show
+| POST | http://localhost:8080/cities | Action: save
+| PUT | http://localhost:8080/cities/${id} | Action: update
+| DELETE | http://localhost:8080/cities/${id} | Action: delete
 
 <br/>
-<br/>
 Controller: location
+| Http Method | Resource URL | Rest Controller Action |
+| ------ | ------ | ------ |
+| GET | http://localhost:8080/cities/${cityId}/locations | Action: index
+| GET | http://localhost:8080/cities/${cityId}/locations/${id} | Action: show
+| POST | http://localhost:8080/cities/${cityId}/locations | Action: save
+| PUT | http://localhost:8080/cities/${cityId}/locations/${id}  | Action: update
+| DELETE | http://localhost:8080/cities/${cityId}/locations/${id}  | Action: delete
+
+
 <br/> |   POST   | /cities/${cityId}/locations            | Action: save             |
 <br/> |   GET    | /cities/${cityId}/locations            | Action: index            |
 <br/> |  DELETE  | /cities/${cityId}/locations/${id}      | Action: delete           |
