@@ -4,6 +4,7 @@ REST api Example Using Grails 3.2.2
 <br/> I use MySql server in this project
 
 # Resources URL
+#### <i class="icon-file"></i> Controller: city
 
 | Http Method | Resource URL | Rest Controller Action |
 | ------- | ------- | ------- |
@@ -12,6 +13,8 @@ REST api Example Using Grails 3.2.2
 | POST | http://localhost:8080/cities | Action: save |
 | PUT | http://localhost:8080/cities/${id} | Action: update |
 | DELETE | http://localhost:8080/cities/${id} | Action: delete |
+
+#### <i class="icon-file"></i> Controller: location 
 
 | Http Method | Resource URL | Rest Controller Action |
 | ------- | ------- | ------- |
