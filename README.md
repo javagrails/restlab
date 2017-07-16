@@ -50,7 +50,11 @@ Headers { Content-Type : application/json, Accept : application/json } both for 
 
 POST Resource URL => http://localhost:8080/cities/1/locations
 
-Body Content JSON {"lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
+Body Content JSON 
+```javascript
+{"lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
+```
+
 
 PUT Resource URL => http://localhost:8080/cities/1/locations/1
 
