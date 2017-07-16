@@ -30,19 +30,17 @@ Headers { Content-Type : application/json, Accept : application/json } both for 
 
 POST Resource URL => http://localhost:8080/cities
 
-Body Content JSON ```javascript 
+Body Content JSON 
+```javascript
 {"description": "A North Side District of BD","division": "Dhaka","name": "Jamalpur","population": 300000}
 ```
 
 PUT Resource URL => http://localhost:8080/cities/1
 
-Body Content JSON ```javascript
+Body Content JSON 
+```javascript
 {"id":1 ,"description": "A North Side District of BD","division": "Dhaka","name": "Jamalpur","population": 300000}
-```
- 
- 
- 
- 
+```  
  
 
 ### Location POST and PUT example
@@ -58,7 +56,8 @@ Body Content JSON
 
 PUT Resource URL => http://localhost:8080/cities/1/locations/1
 
-Body Content JSON {"id":1, "lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
-
-
+Body Content JSON 
+```javascript
+{"id":1, "lat": 23.7897,"lon": 90.3929,"postalCode": "1212","stateProvince": "Dhaka","streetAddress": "23 Gulshan","streetAddressLine2": "lane 13"}
+```
 
