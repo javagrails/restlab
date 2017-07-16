@@ -5,31 +5,25 @@ REST api Example Using Grails 3.2.2
 
 # Resources URL
 
-Controller: city
+Controller: city <br/>
 | Http Method | Resource URL | Rest Controller Action |
 | ------ | ------ | ------ |
-| GET | http://localhost:8080/cities | Action: index
-| GET | http://localhost:8080/cities/${id} | Action: show
-| POST | http://localhost:8080/cities | Action: save
-| PUT | http://localhost:8080/cities/${id} | Action: update
-| DELETE | http://localhost:8080/cities/${id} | Action: delete
+| GET | http://localhost:8080/cities | Action: index |
+| GET | http://localhost:8080/cities/${id} | Action: show |
+| POST | http://localhost:8080/cities | Action: save |
+| PUT | http://localhost:8080/cities/${id} | Action: update |
+| DELETE | http://localhost:8080/cities/${id} | Action: delete |
 
 <br/>
-Controller: location
+Controller: location <br/>
 | Http Method | Resource URL | Rest Controller Action |
 | ------ | ------ | ------ |
-| GET | http://localhost:8080/cities/${cityId}/locations | Action: index
-| GET | http://localhost:8080/cities/${cityId}/locations/${id} | Action: show
-| POST | http://localhost:8080/cities/${cityId}/locations | Action: save
-| PUT | http://localhost:8080/cities/${cityId}/locations/${id}  | Action: update
-| DELETE | http://localhost:8080/cities/${cityId}/locations/${id}  | Action: delete
+| GET | http://localhost:8080/cities/${cityId}/locations | Action: index |
+| GET | http://localhost:8080/cities/${cityId}/locations/${id} | Action: show |
+| POST | http://localhost:8080/cities/${cityId}/locations | Action: save |
+| PUT | http://localhost:8080/cities/${cityId}/locations/${id}  | Action: update |
+| DELETE | http://localhost:8080/cities/${cityId}/locations/${id}  | Action: delete |
 
-
-<br/> |   POST   | /cities/${cityId}/locations            | Action: save             |
-<br/> |   GET    | /cities/${cityId}/locations            | Action: index            |
-<br/> |  DELETE  | /cities/${cityId}/locations/${id}      | Action: delete           |
-<br/> |   PUT    | /cities/${cityId}/locations/${id}      | Action: update           |
-<br/> |   GET    | /cities/${cityId}/locations/${id}      | Action: show             |
 
 # Sample Domain JSON
 City Json
