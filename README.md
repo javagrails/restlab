@@ -1,5 +1,7 @@
 # restlab
 REST api Example Using Grails 3.2.2
+<br/> Need to configure database username, password and url according to your database server in application.yml file
+<br/> I use MySql server in this project
 
 # Resources URL
 <br/>
