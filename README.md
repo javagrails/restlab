@@ -29,9 +29,11 @@ REST api Example Using Grails 3.2.2
 Headers { Content-Type : application/json, Accept : application/json } both for POST and PUT request
 
 POST Resource URL => http://localhost:8080/cities
+
 Body Content JSON {"description": "A North Side District of BD","division": "Dhaka","name": "Jamalpur","population": 300000}
 
 PUT Resource URL => http://localhost:8080/cities/1
+
 Body Content JSON {"id":1 ,"description": "A North Side District of BD","division": "Dhaka","name": "Jamalpur","population": 300000}
 
 
