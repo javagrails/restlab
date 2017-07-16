@@ -5,7 +5,6 @@ REST api Example Using Grails 3.2.2
 
 # Resources URL
 
-Controller: city <br/>
 | Http Method | Resource URL | Rest Controller Action |
 | ------- | ------- | ------- |
 | GET | http://localhost:8080/cities | Action: index |
@@ -14,8 +13,6 @@ Controller: city <br/>
 | PUT | http://localhost:8080/cities/${id} | Action: update |
 | DELETE | http://localhost:8080/cities/${id} | Action: delete |
 
-<br/>
-Controller: location <br/>
 | Http Method | Resource URL | Rest Controller Action |
 | ------- | ------- | ------- |
 | GET | http://localhost:8080/cities/${cityId}/locations | Action: index |
